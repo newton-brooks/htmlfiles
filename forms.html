@@ -1,0 +1,53 @@
+
+<html>
+<head></head>
+<body>
+    <form action= 'http://www.example.com/subscribe.php' method="get">
+        <p>First Name:
+            <input type="text" name='userfirstname' size='15' maxlength='30'/>
+        </p>
+        <p>Last Name:
+            <input type="text" name='userlastname' size = '15' maxlength= '30'/>
+        </p>
+        <p>Address:
+            <input type='text' name="address" size='30' maxlength='50'/>
+        </P>
+        <p>State:
+            <select name='states'>
+                <option value="new york">New york</option>
+                <option value='new jersey'>New Jersey</option>
+                <option value='pennsylvania'>Pennsylvania</option>
+            </select>
+        </p>
+        <p>Password:
+            <input type="password" name='password' size='20' maxlength="25" />
+        </p>
+        <p>Gender:
+            <input type='radio' name='gender' value='male' /> Male or
+            <input type='radio' name='gender' value='female' /> Female
+        </p>
+       <p> Do you bleat like a sheep? <input type='checkbox' name='yesno' value='yes'/>Yes
+        <p> How many cups of coffee do you drink a day? 
+           <p> <input type='radio' name='cups' value='2 cups'/> 0 to 2 Cups(s) <input type='radio' name='cups' value='4 cups'/> 2 to 4 cups </p>
+           <p> <input type='radio' name='cups' value='8 cups'/> 4 to 8 Cups <input type='radio' name='cups' value='16 cups'/> 8 to 16 cups </p>
+        </p>
+        <p> Do you own a personal computer?
+                <select name='yesno'>
+                    <option value='Yes'>Yes</option>
+                    <option value='No'>No</option>
+                </select>
+            </p>
+        <p> How long would it take to make a HTML form?
+            <p><input type='text' size='20' maxlength='30'/></p>
+        </p>
+        <p> Comments:
+            <p><textarea name='comments' cols='20' rows='4'></textarea></p>
+        </p>
+        <button>Rest Form</button>
+        <button>Send Survey</button>
+       </p>
+
+    </form>
+    
+</body>
+</html>
