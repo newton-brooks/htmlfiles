@@ -1,0 +1,13 @@
+@media (max-width: 961px) {
+   html {
+    width:30em;
+   } 
+}
+
+
+html {
+    font-size: 24px;
+    width: 40em;
+    /* text-align: center; */
+    margin: auto;
+}
